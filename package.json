@@ -1,0 +1,19 @@
+{
+  "name": "joguin",
+  "version": "0.0.1",
+  "description": "Meu primeiro jogo DS",
+  "main": "formula1_class.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdffranciscosilvaa/meu-jogo-1.git"
+  },
+  "author": "Francisco Lisboa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pdffranciscosilvaa/meu-jogo-1/issues"
+  },
+  "homepage": "https://github.com/pdffranciscosilvaa/meu-jogo-1#readme"
+}
