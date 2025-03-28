@@ -3,8 +3,10 @@
     padding: 0;
 }
 
-body{
-    background-color: #3b3b3b;
+
+img{
+    width: 100vw;
+    height: 100vh;
 }
 
 canvas{
@@ -15,4 +17,38 @@ canvas{
     left: 0;
     right: 0;
     background: linear-gradient(black, rgb(255, 255, 255))
+}
+
+
+/* Para navegadores WebKit (Chrome, Edge e Safari) */
+::-webkit-scrollbar {
+    width: 10px; /* Largura da scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 0, 0, 0.5); /* Cor do fundo da scrollbar */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000000; /* Cor da barra de rolagem */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 0, 0, 0.5); /* Cor da barra de rolagem ao passar o mouse */
+}
+
+
+.button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Tamanho médio para os botões */
+    margin: 5px 0; /* Espaçamento vertical entre os botões */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em; /* Tamanho da fonte ajustado */
+    transition: background-color 0.3s, transform 0.2s; /* Efeito de transição */
+    width: 100%; /* Botões ocupam toda a largura disponível */
 }
