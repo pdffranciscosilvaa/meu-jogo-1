@@ -3,13 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/carro1.png" type="image/png">
-    <link rel="stylesheet" href="style.css">
-    <script src="formula1_class.js"defer></script>
-    <script src="formula1_main.js"defer></script>
-    <title>Fórmula 1</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="start.js" defer></script>
+    <title>Tela de Início - Fórmula 1</title>
+  
 </head>
 <body>
-    <canvas id="des" width="500" height="700"></canvas>
+    <div class="menu-container">
+        <h1>Bem-vindo ao Jogo Fórmula 1</h1>
+        <button class="button" onclick="entrarNoJogo()">Iniciar Jogo</button>
+        <button class="button" onclick="irAoManual()">Manual</button>
+        <audio id="background-music" src="./assets/abertura.mp3" loop></audio>
+    </div>
+
+    <script>
+        function entrarNoJogo() {
+            // Redireciona para a página do jogo
+            window.location.href = 'jogo.html'; // Substitua pelo caminho correto da página do jogo
+        }
+
+        function irAoManual() {
+            // Redireciona para a página do manual
+            window.location.href = 'manual.html'; // Substitua pelo caminho correto da página do manual
+        }
+
+    </script>
 </body>
 </html>

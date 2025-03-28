@@ -1,0 +1,80 @@
+#start-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    box-shadow: #880000;
+}
+
+#start-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: left; /* Alinhamento à esquerda */
+}
+
+.menu-container {
+    background-image: url('./assets/senna1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 850px; /* Mantido o tamanho da altura */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinha os itens ao topo */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(255, 0, 0);
+    padding: 20px; /* Mantido o padding */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em; /* Mantido o tamanho do título */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Tamanho médio para os botões */
+    margin: 5px 0; /* Espaçamento vertical entre os botões */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em; /* Tamanho da fonte ajustado */
+    transition: background-color 0.3s, transform 0.2s; /* Efeito de transição */
+    width: 100%; /* Botões ocupam toda a largura disponível */
+}
+
+.button:hover {
+    background-color: #e64a19;
+    transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+}
+
+a {
+    text-decoration: none;
+    color: white; /* Cor do texto do link */
+}
+
+
+
