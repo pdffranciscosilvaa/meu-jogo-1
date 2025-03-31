@@ -25,7 +25,7 @@ cap = 10
 
 let level = 1
 let jogar = 1
-let musica = new Audio('./assets/batida.mp3')
+let musica = new Audio('./assets/.motor.wav')
 musica.volume = 0.8
 musica.loop = true
 
