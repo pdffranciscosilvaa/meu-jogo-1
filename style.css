@@ -52,3 +52,11 @@ canvas{
     transition: background-color 0.3s, transform 0.2s; /* Efeito de transição */
     width: 100%; /* Botões ocupam toda a largura disponível */
 }
+
+#controls {
+    margin-left: 20px; /* Espaço entre o canvas e a seção de controles */
+    padding: 10px;
+    background-color: #fff; /* Cor de fundo da seção de controles */
+    border: 1px solid #ccc; /* Borda da seção de controles */
+    border-radius: 5px; /* Bordas arredondadas */
+}
